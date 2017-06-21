@@ -1,4 +1,5 @@
 program test
+
      implicit none
      integer :: b = 10
      if (b > 3) then
@@ -11,4 +12,5 @@ program test
      else
           print*, "B is less than or equal to 3"
      endif
+
 end program test

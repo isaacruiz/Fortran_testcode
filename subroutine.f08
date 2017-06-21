@@ -1,5 +1,3 @@
-
-
 program subroutine
      implicit none
 
@@ -27,7 +25,7 @@ subroutine sub_example(a, b, c, cnt, avg)
      real, intent(in) :: cnt
      real, intent(out) :: avg
      real :: temp
-
+     
      temp = a;
      a = b;
      b = temp;
